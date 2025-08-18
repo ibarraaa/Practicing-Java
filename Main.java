@@ -39,7 +39,7 @@ class Main {
         System.out.println(uniqueCodes[0]);
         
         GuitarBrand[0] = "JCraft";
-        GuitarBrand[1] = "Les Pul";
+        GuitarBrand[1] = "Les Pul"; 
         GuitarBrand[2] = "Fender";
         GuitarBrand[3] = "Ligaya";
         
