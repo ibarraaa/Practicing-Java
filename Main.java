@@ -73,7 +73,7 @@ class Main {
             "ruixzz1233"
         };
          System.out.println("Index    : " + 0);
-         System.out.println("Email    : " + emails[0]);
+         System.out.println("Email    : " + emails[0]); 
          System.out.println("password : " + password[0]);
          System.out.println("username : " + usernames[0]);
     }
