@@ -76,5 +76,8 @@ class Main {
          System.out.println("Email    : " + emails[0]); 
          System.out.println("password : " + password[0]);
          System.out.println("username : " + usernames[0]);
+
+
+        
     }
 }
