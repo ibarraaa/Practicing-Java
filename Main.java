@@ -68,7 +68,7 @@ class Main {
             "ruiz"    
         };
         String password[] = {
-            "juan123",
+            "juan123", 
             "athena123",
             "ruixzz1233"
         };
