@@ -72,6 +72,7 @@ class Main {
             "athena123",
             "ruixzz1233"
         };
+        int i = 3;
          System.out.println("Index    : " + 0);
          System.out.println("Email    : " + emails[0]); 
          System.out.println("password : " + password[0]);
