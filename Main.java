@@ -78,7 +78,62 @@ class Main {
          System.out.println("password : " + password[0]);
          System.out.println("username : " + usernames[0]);
 
-
+ System.out.println("Conditional Statements ");
+        
+        boolean isTall = true;
+        if(isTall == false){
+            System.out.println("r u tall wow!");
+        }else{
+            System.out.println("false");
+        }
+        System.out.println("Enter Age: ");
+        int age = s.nextInt();
+        int legalAge = 18;
+        boolean isVerified = false;
+        if(age >= legalAge){
+            System.out.println("You have Access!");
+            if(isVerified)System.out.println("Qualified");
+            else System.out.println("But Not Qualified.");
+        }else System.out.println("Access Denied!");
+        
+        
+        // Equals Function
+        // greet.equals("");
+        //equalsIgnoreCase("");
+        
+        String greet = "hello!";
+        if(greet.equalsIgnoreCase("Hello!")){
+            System.out.println(true);
+        }
+        
+        
+        System.out.print("Enter your Math Grade: ");
+        int mathAve = s.nextInt();
+        System.out.print("Enter your English Grade: ");
+        int englishAve = s.nextInt();
+        System.out.print("Enter your Science Grade: ");
+        int scienceAve = s.nextInt();
+        System.out.print("Enter your Computer Grade: ");
+        int computerAve = s.nextInt();
+        
+        float average = (mathAve + englishAve + scienceAve + computerAve) / 4;
+        System.out.println("Average: " + average);
+        
+        if (average >= 100){
+            System.out.println("Invalid");
+        }else if(average >= 98){
+             System.out.println("With Highes Honor");
+        }else if(average >= 95){
+             System.out.println("With High Honor");
+        }else if (average >=90){
+            System.out.println("With Honor");
+            
+        }
+        else if(average >= 75){
+            System.out.println("passed");
+        }else{
+            System.out.println("Failed");
+        }
         
     }
 }
