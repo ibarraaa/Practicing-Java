@@ -13,7 +13,7 @@ class forloop {
        System.out.print("Name To Search: ");  
        String search = s.nextLine();
              
-       
+        
        for(String name:names){
            System.out.println(name);
            break;
