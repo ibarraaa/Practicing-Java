@@ -8,7 +8,7 @@ class forloop {
        Scanner s = new Scanner(System.in);
        
          
-       
+          
        String[] names = {"David", "Ace", "allen", "jasfer",  "jaymar"};
        System.out.print("Name To Search: ");
        String search = s.nextLine();
