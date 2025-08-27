@@ -1,7 +1,7 @@
 
 // package java fundamentals;
 import java.util.Scanner;
-class Main {
+class forloop {
     public static void main(String[] args) {
        
        
